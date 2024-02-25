@@ -16,6 +16,10 @@ automatically obtain and use these credentials.
 This plugin depends on the AWS CLI being installed on the search $PATH. The AWS CLI must be properly configured
 with the necessary credentials and region. 
 
+## Installation
+
+`poetry self add poetry-codeartifact-login-plugin`
+
 ## Setup
 
 Update your project's `pyproject.toml` file to include your CodeArtifact repository as a source for packages.
